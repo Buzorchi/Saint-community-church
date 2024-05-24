@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-size: 16px;
+  /* letter-spacing: 1.2px; */
+  /* background-color: #191A1F; */
+  font-family: 'nexa-regular', 'Helvetica Neue', sans-serif;
+  
+}
+
+.content {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
